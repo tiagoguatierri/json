@@ -9,19 +9,19 @@
   "Car": {
     "brand": { "string": {} },
     "model": { "string": {} },
-    "year": { "int": {} },
+    "year": { "int": { "min": 1950, "max": 2023 } },
     "optional": {
-        "hasMany": "Optional"
+      "hasMany": "Optional"
     },
     "user": {
       "belongsTo": "User"
     }
   },
   "Optional": {
-    "value": {"string": {}},
-    "name": {"string": {}},
+    "value": { "string": {} },
+    "name": { "string": {} },
     "car": {
-        "hasMany": "Car"
+      "hasMany": "Car"
     }
   }
 }
