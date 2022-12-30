@@ -1,5 +1,18 @@
 {
-    "User": {
-      "title": { "string": {} }
+  "User": {
+    "cod": { "string": {} },
+    "name": { "string": {} },
+    "cars": {
+      "hasMany": "Car"
+    }
+  },
+  "Car": {
+    "brand": { "string": {} },
+    "model": { "string": {} },
+    "year": { "int": {} },
+    "optional": { "string": [] },
+    "user": {
+      "belongsTo": "User"
     }
   }
+}
