@@ -10,9 +10,18 @@
     "brand": { "string": {} },
     "model": { "string": {} },
     "year": { "int": {} },
-    "optional": { "string": [] },
+    "optional": {
+        "hasMany": "Optional"
+    },
     "user": {
       "belongsTo": "User"
+    }
+  },
+  "Optional": {
+    "value": {"string": {}},
+    "name": {"string": {}},
+    "car": {
+        "hasMany": "Car"
     }
   }
 }
