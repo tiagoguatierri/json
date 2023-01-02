@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "cod": "ab-123",
+      "name": "Tiago",
+      "cars": [
+        {
+          "brand": "Audi",
+          "model": "RS3",
+          "year": 2022,
+          "optional": [1, 2, 3]
+        }
+      ]
+    }
+  ]
+}
