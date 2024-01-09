@@ -1,19 +1,66 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "cod": "ab-123",
-      "name": "Tiago",
-      "date": "2023-08-29",
-      "cars": [
-        {
-          "id": 1,
-          "brand": "Audi",
-          "model": "RS3",
-          "year": 2022,
-          "optional": [1, 2, 3]
-        }
-      ]
-    }
-  ]
+  "items": {
+    "items": [
+      {
+        "variant": {
+          "objectId": "pFYY0PIwTF",
+          "externalId": "",
+          "erpId": "",
+          "name": "",
+          "unitMultiplier": "",
+          "visible": true,
+          "price": 0.03,
+          "salePrice": "",
+          "quantity": "",
+          "sellerId": "",
+          "sellerName": ""
+        },
+        "quantity": 2,
+        "detail": "Cor: azul | Tamanho: grande",
+        "price": 0.03,
+        "product": "Produto-02",
+        "productReference": ""
+      },
+      {
+        "variant": {
+          "objectId": "TKeLnyD1FT",
+          "externalId": "",
+          "erpId": "",
+          "name": "",
+          "unitMultiplier": "",
+          "visible": true,
+          "price": 0.03,
+          "salePrice": "",
+          "quantity": "",
+          "sellerId": "",
+          "sellerName": ""
+        },
+        "quantity": 1,
+        "detail": "Cor: amarelo | Tamanho: pequeno",
+        "price": 0.03,
+        "product": "Produto-02",
+        "productReference": ""
+      },
+      {
+        "variant": {
+          "objectId": "aG15t6E8kl",
+          "externalId": "",
+          "erpId": "d12s3a",
+          "name": "",
+          "unitMultiplier": "",
+          "visible": true,
+          "price": 20,
+          "salePrice": 10,
+          "quantity": 1,
+          "sellerId": "",
+          "sellerName": ""
+        },
+        "quantity": 1,
+        "detail": "",
+        "price": 10,
+        "product": "Produto-01",
+        "productReference": "d12s3a"
+      }
+    ]
+  }
 }
